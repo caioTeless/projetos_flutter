@@ -1,0 +1,33 @@
+name: forum_tarde
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  another_flushbar: ^1.10.22
+  dartz: ^0.10.0-nullsafety.1
+  equatable: ^2.0.2
+  flutter_mobx: ^2.0.0
+  flutter_modular: ^3.2.2+1
+  image_picker: ^0.7.5+2
+  mobx: ^2.0.1
+  parse_server_sdk_flutter: ^3.0.0
+  shared_preferences: ^2.0.5
+  url_strategy: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: any
+  mobx_codegen: ^2.0.1+3
+  modular_codegen: any
+  pedantic: ^1.11.0
+
+flutter:
+
+  uses-material-design: true

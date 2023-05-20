@@ -1,0 +1,1 @@
+const kDatabase = 'example.db';
